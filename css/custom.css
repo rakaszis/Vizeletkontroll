@@ -1,0 +1,344 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family:'Overpass', 'Merriweather Sans', sans-serif;
+}
+
+#specialFont {
+	font-family: 'PT Serif Caption', sans-serif;
+	color: #071B53;
+	text-shadow: 0.25px 0.25px black;
+	text-align: center;
+}
+
+.container {
+	/* border: 1px solid red; */
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.textToCenter {
+    margin: 0;
+    padding: 0;
+	text-align: center;
+    font-size: 5 em;
+    font-weight: 700;
+	color: #006ECC;
+	text-shadow: 2px 2px black;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/kaposvar_urologia_maganrendelés_rakasz_életmodkozpont_somogy_1.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header h2 {
+	color: black;
+	/* text-transform: uppercase; */
+	/* text-shadow: 1px 1px #E6E2AF; */
+}
+
+.header h3 {
+	color: black;
+	/* text-transform: uppercase; */
+	/* text-shadow: 1px 1px #E6E2AF; */
+}
+
+#text-to-justify {
+	text-align: justify;
+	/* color: yellow; */
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+	background-color: #FEFFF5;
+}
+
+.about h1 {
+	font-weight: 700;
+	font-size: 3em;
+	color: #2A2C2B;	
+}
+
+.about span {
+	/* text-transform: uppercase; */
+}
+
+.about p {
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+.about hr {
+	height: 2px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px #E5E5E5;
+	/* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
+}
+
+/* Services */
+
+.services {
+    padding: 20px 0;
+	text-align: center;
+	background-color: white;
+}
+
+#services h2 {
+	color: black;
+}
+
+.services .container {
+	align-content: center;
+}
+
+/* Callout */
+
+.callout {
+	background-color: white;
+	padding: 20px 0px;
+}
+
+/* Services */
+
+.services  h2 {
+	margin: 0;
+    padding-bottom: 50px;
+    font-size: 3em;
+    font-weight: 700;
+	color: white;
+}
+
+/* Footer */
+
+footer .high {
+    padding: 20px 0;
+	background-color: white;
+	width: 100%;
+}
+
+footer .col-lg-10 h2 {
+	font-size: 2.5em;
+	color: #1B1B1B;
+}
+
+footer .col-lg-10 p {
+	font-size: 2em;
+}
+
+footer .col-lg-10 ul li {
+	font-size: 1.25em;
+}
+
+footer img {
+	/* border-radius: 20%; */
+	display: block;
+    margin: auto;
+    max-width: 100%;
+	height: auto;
+}
+
+#to-top {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+footer .low {
+	background-color: #FEFFF5;
+}
+
+/* Media */
+
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  background: yellow;
+}
+ 
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+ 
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Vagabond Brand */
+
+#vagabond-brand {
+	text-align: center;
+	/* color: yellow; */
+	background-color: #7C7E7D;
+	padding: 15px 0;
+	color: #eeeeee;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #333333;
+}
+
+#vagabond-brand a {
+    color: #D9C179;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Fixed Top Menu */
+
+#hidingmenu {
+	z-index: 1;
+    position: fixed;
+	width: 100%;
+    margin: 0;
+    padding-top: 5px;
+	border: 0;
+    list-style: none;
+    background-color: rgba(0,0,0,0.4);
+	text-align: left;
+}
+
+#hidingmenu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    transform: translateX(250px);
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
