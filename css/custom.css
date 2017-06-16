@@ -69,8 +69,8 @@ body {
 	color: #2A2C2B;	
 }
 
-.about span {
-	/* text-transform: uppercase; */
+#blueIcon{
+	color:#003FBA;
 }
 
 .about p {
@@ -194,7 +194,7 @@ footer .low {
 	padding: 15px 0;
 	color: #eeeeee;
 	text-transform: uppercase;
-	text-shadow: 2px 2px #333333;
+	text-shadow: 1.5px 1.5px #333333;
 }
 
 #vagabond-brand a {
