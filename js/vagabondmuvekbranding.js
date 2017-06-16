@@ -14,7 +14,7 @@
     $(document).ready(function(){                    
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 50) {
-                $('.hidingmenu').fadeIn(3500);
+                $('.hidingmenu').fadeIn(15000);
             } else {
                 $('.hidingmenu').fadeOut(50);
             }
