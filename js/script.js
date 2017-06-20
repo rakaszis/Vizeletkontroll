@@ -48,6 +48,35 @@
             }
         }
     });
+	
+// Vagabond Brand
+	
+	(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() < 2000) {
+                $('#vagabond-brand').fadeOut(1500);
+            } else {
+                $('#vagabond-brand').fadeIn(1500);
+            }
+        });
+    });
+	})(jQuery);
+
+// Animating FavIcons
+
+	(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 300) {
+                $('.hidingmenu').fadeIn(5000);
+            } else {
+                $('.hidingmenu').fadeOut(1000);
+            }
+        });
+    });
+	})(jQuery);
+	
     // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
     // Disable scroll zooming and bind back the click event
