@@ -108,6 +108,10 @@ body {
 	padding: 20px 0px;
 }
 
+#borderRadius img{
+	border-radius: 15px;
+}
+
 /* Services */
 
 .services  h2 {
@@ -313,3 +317,21 @@ footer .low {
 .toggle {
     margin: 5px 5px 0 0;
 }
+
+/* Table */
+
+table, th, td {
+    border-collapse: collapse;
+	padding: 5px;
+}
+
+#tableToCenter th {
+	text-align: center;
+	font-size: 25px;
+}
+
+#tableToCenter td {
+	text-align: left;
+	font-size: 15px;
+}
+
